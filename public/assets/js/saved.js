@@ -87,13 +87,6 @@ $(document).ready(function () {
 		console.log(this)
 	});
 
-	$("li").on("click", "button", function (e) {
-		e.preventDefault();
-		//$(this).parent().remove();
-		console.log('onclick ul')
-		console.log(this)
-	});
-
 	// Removing Saved Articles
 	$(document).on("click", ".unsave-button", function () {
 		// Get article id
